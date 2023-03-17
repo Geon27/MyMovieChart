@@ -1,10 +1,10 @@
 //
-//  ListViewController.swift
+//  ListViewcontroller.swift
 //  MyMovieChart
 //
-//  Created by 육건 on 2023/03/17.
+//  Created by 육건 on 2023/03/18.
 //
 
 import UIKit
-class ListViewController: UIViewController {
+class ListViewController: UITableViewController {
 }
