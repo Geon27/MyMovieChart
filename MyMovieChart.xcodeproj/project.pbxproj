@@ -14,6 +14,7 @@
 		13E9992829BE746C00B50D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E9992729BE746C00B50D97 /* Assets.xcassets */; };
 		13E9992B29BE746C00B50D97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E9992929BE746C00B50D97 /* LaunchScreen.storyboard */; };
 		13E9993529C4BBB500B50D97 /* ListViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E9993429C4BBB500B50D97 /* ListViewcontroller.swift */; };
+		13E9993729C8C96000B50D97 /* MovieVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E9993629C8C96000B50D97 /* MovieVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		13E9992A29BE746C00B50D97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13E9992C29BE746C00B50D97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13E9993429C4BBB500B50D97 /* ListViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ListViewcontroller.swift; path = MyMovieChart/ListViewcontroller.swift; sourceTree = "<group>"; };
+		13E9993629C8C96000B50D97 /* MovieVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieVO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		13E9991D29BE746B00B50D97 /* MyMovieChart */ = {
 			isa = PBXGroup;
 			children = (
+				13E9993629C8C96000B50D97 /* MovieVO.swift */,
 				13E9991E29BE746B00B50D97 /* AppDelegate.swift */,
 				13E9992029BE746B00B50D97 /* SceneDelegate.swift */,
 				13E9992229BE746B00B50D97 /* ViewController.swift */,
@@ -145,6 +148,7 @@
 				13E9991F29BE746B00B50D97 /* AppDelegate.swift in Sources */,
 				13E9993529C4BBB500B50D97 /* ListViewcontroller.swift in Sources */,
 				13E9992129BE746B00B50D97 /* SceneDelegate.swift in Sources */,
+				13E9993729C8C96000B50D97 /* MovieVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
