@@ -30,5 +30,12 @@ class ListViewController: UITableViewController {
         self.list.append(mvo)
         
         // 세번째 행
+        mvo = MoiveVO( )
+        mvo.title = "말할 수 없는 비밀"
+        mvo.description = "여기서 너까지 다섯걸음"
+        mvo.opendate = "2015-05-07"
+        mvo.rating = 9.19
+        // 배열에 추가
+        self.list.append(mvo)
     }
 }
