@@ -15,7 +15,19 @@ class ListViewController: UITableViewController {
         ("말할 수 없는 비밀", "여기서 너까지 다섯걸음", "2015-05-07", 9.19)
     ]
     // 테이블 뷰를 구성한 리스트 데이터
-    var list = [MovieVO]( )
+    lazy var list: [MovieVO] = {
+        var datalist = [MovieVO]()
+        for (title, desc, opendate, rating) in self.dataset {
+            let mvo = MovieVO( )
+            mvo.title = title
+            mvo.description = desc
+            mvo.opendate = opendate
+            mvo.rating = rating
+            
+    datalist.append (mvo)
+    }
+        return datalist
+    }()
     
     override func viewDidLoad( ) {
         // 첫번째 행
