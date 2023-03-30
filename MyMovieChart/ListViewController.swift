@@ -36,4 +36,10 @@ class ListViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.list.count
     }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath:
+                            IndexPath) -> UITableViewCell {
+        // 주어진 행에 맞는 데이터 소스를 읽어온다
+        let row = self.list[indexPath.row]
+    }
 }
