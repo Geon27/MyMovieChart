@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="79z-Hy-4Dc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B5V-a0-tEJ">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
-                            <tableViewSection id="bnq-Lh-pkU">
+                            <tableViewSection headerTitle="영화정보" id="bnq-Lh-pkU">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="ListCell" textLabel="a3X-6V-26E" style="IBUITableViewCellStyleDefault" id="JBC-4b-INR">
                                         <rect key="frame" x="0.0" y="50" width="393" height="43.666667938232422"/>
@@ -77,10 +77,29 @@
                             <outlet property="delegate" destination="79z-Hy-4Dc" id="maO-n4-IB0"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="zRL-HX-YCG"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PYZ-dU-o9n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="282" y="73"/>
+            <point key="canvasLocation" x="1208.3969465648854" y="72.535211267605632"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QGy-Ss-36Z">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="B5V-a0-tEJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uoU-QO-M2W">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="79z-Hy-4Dc" kind="relationship" relationship="rootViewController" id="2Yk-B6-x1r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fGP-a9-ohT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="281.67938931297709" y="72.535211267605632"/>
         </scene>
     </scenes>
     <resources>
