@@ -15,11 +15,11 @@ class ListViewController: UITableViewController {
     ]
     
     // 테이블 뷰를 구성한 리스트 데이터
-    lazy var list: [MovieVO] = {
-        var datalist = [MovieVO]()
+    lazy var list: [MoiveVO] = {
+        var datalist = [MoiveVO]()
         
         for (title, desc, opendate, rating) in self.dataset {
-            let mvo = MovieVO( )
+            let mvo = MoiveVO( )
             mvo.title = title
             mvo.description = desc
             mvo.opendate = opendate
