@@ -48,6 +48,8 @@ class ListViewController: UITableViewController {
         // 추가 작업
         // 영화제목이 표시될 레이블을 title 변수로 받는다
         let title = cell.viewWithTag(101) as? UILabel
+        // 영화요약아 표시될 레이블을 desc 변수로 받는다
+        let desc = cell.viewWithTag(102) as? UILabel
         cell.textLabel?.text = row.title
         
         // 추가사항 : 서브타이틀에 데이터 연결
