@@ -51,7 +51,8 @@ class ListViewController: UITableViewController {
         // 영화요약아 표시될 레이블을 desc 변수로 받는다
         let desc = cell.viewWithTag(102) as? UILabel
         cell.textLabel?.text = row.title
-        
+        // 영화 개봉일이 표시도리 레이블을 opendate 변수로 받는다
+        let opendate = cell.viewWithTag(103) as? UILabel
         // 추가사항 : 서브타이틀에 데이터 연결
         cell.detailTextLabel?.text = row.description
         return cell
