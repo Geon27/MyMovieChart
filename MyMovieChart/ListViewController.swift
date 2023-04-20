@@ -58,6 +58,7 @@ class ListViewController: UITableViewController {
         // 데이터 소스에 저장된 값을 각 레이블 변수에 할당
         title?.text = row.title
         desc?.text = row.description
+        opendate?.text = row.opendate
         // 추가사항 : 서브타이틀에 데이터 연결
         cell.detailTextLabel?.text = row.description
         return cell
