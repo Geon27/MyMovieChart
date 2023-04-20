@@ -59,6 +59,7 @@ class ListViewController: UITableViewController {
         title?.text = row.title
         desc?.text = row.description
         opendate?.text = row.opendate
+        rating?.text = "\(row.rating!)"
         // 추가사항 : 서브타이틀에 데이터 연결
         cell.detailTextLabel?.text = row.description
         return cell
