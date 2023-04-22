@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		139D7FF329F37212009911B6 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 139D7FF229F37212009911B6 /* MovieCell.swift */; };
 		13E9991F29BE746B00B50D97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E9991E29BE746B00B50D97 /* AppDelegate.swift */; };
 		13E9992129BE746B00B50D97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E9992029BE746B00B50D97 /* SceneDelegate.swift */; };
 		13E9992329BE746B00B50D97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E9992229BE746B00B50D97 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		139D7FF229F37212009911B6 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		13E9991B29BE746B00B50D97 /* MyMovieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMovieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13E9991E29BE746B00B50D97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13E9992029BE746B00B50D97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				13E9993629C8C96000B50D97 /* MovieVO.swift */,
 				13E9993429C4BBB500B50D97 /* ListViewcontroller.swift */,
+				139D7FF229F37212009911B6 /* MovieCell.swift */,
 				13E9991E29BE746B00B50D97 /* AppDelegate.swift */,
 				13E9992029BE746B00B50D97 /* SceneDelegate.swift */,
 				13E9992229BE746B00B50D97 /* ViewController.swift */,
@@ -146,6 +149,7 @@
 			files = (
 				13E9992329BE746B00B50D97 /* ViewController.swift in Sources */,
 				13E9991F29BE746B00B50D97 /* AppDelegate.swift in Sources */,
+				139D7FF329F37212009911B6 /* MovieCell.swift in Sources */,
 				13E9993529C4BBB500B50D97 /* ListViewcontroller.swift in Sources */,
 				13E9992129BE746B00B50D97 /* SceneDelegate.swift in Sources */,
 				13E9993729C8C96000B50D97 /* MovieVO.swift in Sources */,
