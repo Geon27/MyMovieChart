@@ -20,6 +20,12 @@
                             <rect key="frame" x="0.0" y="318" width="393" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <connections>
+                                <outlet property="desc" destination="Yri-c4-vAW" id="c77-un-yMf"/>
+                                <outlet property="opendate" destination="Yri-c4-vAW" id="AEJ-Ot-9A9"/>
+                                <outlet property="rating" destination="93k-UL-zkI" id="O5e-eo-cAY"/>
+                                <outlet property="title" destination="a3X-6V-26E" id="H3Q-Yy-Syo"/>
+                            </connections>
                         </view>
                         <sections>
                             <tableViewSection headerTitle="영화정보" id="bnq-Lh-pkU">
